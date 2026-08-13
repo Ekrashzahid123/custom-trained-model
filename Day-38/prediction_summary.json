@@ -1,0 +1,382 @@
+[
+    {
+        "filename": "unseen_01_20220307_190919_HDR_jpg.rf.b4d3ee32853f0db2b547be46e69fa576.jpg",
+        "detections_count": 2,
+        "detections": [
+            {
+                "class_id": 0,
+                "class_name": "cup",
+                "confidence": 0.971,
+                "bbox_xyxy": [
+                    188.34,
+                    198.48,
+                    449.22,
+                    533.87
+                ]
+            },
+            {
+                "class_id": 2,
+                "class_name": "phone",
+                "confidence": 0.954,
+                "bbox_xyxy": [
+                    178.73,
+                    47.88,
+                    497.36,
+                    182.43
+                ]
+            }
+        ]
+    },
+    {
+        "filename": "unseen_02_20220307_190939-1-_jpg.rf.52d1223093ad9b9d146fda47a05ea519.jpg",
+        "detections_count": 3,
+        "detections": [
+            {
+                "class_id": 2,
+                "class_name": "phone",
+                "confidence": 0.9676,
+                "bbox_xyxy": [
+                    376.61,
+                    231.99,
+                    509.61,
+                    404.11
+                ]
+            },
+            {
+                "class_id": 0,
+                "class_name": "cup",
+                "confidence": 0.9107,
+                "bbox_xyxy": [
+                    216.65,
+                    148.75,
+                    365.63,
+                    282.68
+                ]
+            },
+            {
+                "class_id": 2,
+                "class_name": "phone",
+                "confidence": 0.452,
+                "bbox_xyxy": [
+                    321.47,
+                    0.14,
+                    566.06,
+                    73.71
+                ]
+            }
+        ]
+    },
+    {
+        "filename": "unseen_03_20220307_190939_jpg.rf.51567061ac7c6762ab61b38fedad301e.jpg",
+        "detections_count": 2,
+        "detections": [
+            {
+                "class_id": 0,
+                "class_name": "cup",
+                "confidence": 0.9844,
+                "bbox_xyxy": [
+                    175.26,
+                    120.96,
+                    353.71,
+                    280.55
+                ]
+            },
+            {
+                "class_id": 2,
+                "class_name": "phone",
+                "confidence": 0.9735,
+                "bbox_xyxy": [
+                    392.55,
+                    191.37,
+                    527.91,
+                    402.24
+                ]
+            }
+        ]
+    },
+    {
+        "filename": "unseen_04_20220307_190941_jpg.rf.59d3a276870c9dc36542f72077122aaf.jpg",
+        "detections_count": 2,
+        "detections": [
+            {
+                "class_id": 2,
+                "class_name": "phone",
+                "confidence": 0.9712,
+                "bbox_xyxy": [
+                    366.3,
+                    272.75,
+                    542.99,
+                    428.2
+                ]
+            },
+            {
+                "class_id": 0,
+                "class_name": "cup",
+                "confidence": 0.9616,
+                "bbox_xyxy": [
+                    301.76,
+                    143.9,
+                    424.95,
+                    262.8
+                ]
+            }
+        ]
+    },
+    {
+        "filename": "unseen_05_20220307_190942-1-_jpg.rf.6d17f56274c8e57936e0ff0edb7273e3.jpg",
+        "detections_count": 3,
+        "detections": [
+            {
+                "class_id": 2,
+                "class_name": "phone",
+                "confidence": 0.962,
+                "bbox_xyxy": [
+                    266.22,
+                    322.46,
+                    462.15,
+                    467.02
+                ]
+            },
+            {
+                "class_id": 0,
+                "class_name": "cup",
+                "confidence": 0.9321,
+                "bbox_xyxy": [
+                    248.17,
+                    163.52,
+                    362.51,
+                    284.82
+                ]
+            },
+            {
+                "class_id": 0,
+                "class_name": "cup",
+                "confidence": 0.8756,
+                "bbox_xyxy": [
+                    557.1,
+                    421.23,
+                    639.79,
+                    602.71
+                ]
+            }
+        ]
+    },
+    {
+        "filename": "unseen_06_20220307_191030_jpg.rf.1324fece1d2dc6525ffbddce3a950e0c.jpg",
+        "detections_count": 3,
+        "detections": [
+            {
+                "class_id": 0,
+                "class_name": "cup",
+                "confidence": 0.9646,
+                "bbox_xyxy": [
+                    303.86,
+                    117.88,
+                    425.95,
+                    264.77
+                ]
+            },
+            {
+                "class_id": 2,
+                "class_name": "phone",
+                "confidence": 0.7666,
+                "bbox_xyxy": [
+                    127.31,
+                    302.02,
+                    308.14,
+                    455.94
+                ]
+            },
+            {
+                "class_id": 0,
+                "class_name": "cup",
+                "confidence": 0.297,
+                "bbox_xyxy": [
+                    127.94,
+                    298.95,
+                    309.63,
+                    456.93
+                ]
+            }
+        ]
+    },
+    {
+        "filename": "unseen_07_20220307_191033_jpg.rf.acd4027bf5a5862c64bc9051f5ca0302.jpg",
+        "detections_count": 2,
+        "detections": [
+            {
+                "class_id": 2,
+                "class_name": "phone",
+                "confidence": 0.9164,
+                "bbox_xyxy": [
+                    238.07,
+                    327.25,
+                    341.14,
+                    399.04
+                ]
+            },
+            {
+                "class_id": 0,
+                "class_name": "cup",
+                "confidence": 0.8423,
+                "bbox_xyxy": [
+                    323.26,
+                    216.68,
+                    383.42,
+                    296.05
+                ]
+            }
+        ]
+    },
+    {
+        "filename": "unseen_08_20220307_191038_jpg.rf.61bd07251e5663073068179d8ab7be33.jpg",
+        "detections_count": 2,
+        "detections": [
+            {
+                "class_id": 0,
+                "class_name": "cup",
+                "confidence": 0.9822,
+                "bbox_xyxy": [
+                    326.97,
+                    293.61,
+                    424.53,
+                    385.87
+                ]
+            },
+            {
+                "class_id": 2,
+                "class_name": "phone",
+                "confidence": 0.9249,
+                "bbox_xyxy": [
+                    234.47,
+                    247.75,
+                    325.35,
+                    328.59
+                ]
+            }
+        ]
+    },
+    {
+        "filename": "unseen_09_20220307_191042_jpg.rf.cde105c1e3448b0591d5142f290e8302.jpg",
+        "detections_count": 3,
+        "detections": [
+            {
+                "class_id": 2,
+                "class_name": "phone",
+                "confidence": 0.9361,
+                "bbox_xyxy": [
+                    223.15,
+                    206.42,
+                    355.35,
+                    300.72
+                ]
+            },
+            {
+                "class_id": 0,
+                "class_name": "cup",
+                "confidence": 0.9328,
+                "bbox_xyxy": [
+                    235.21,
+                    337.82,
+                    345.16,
+                    482.39
+                ]
+            },
+            {
+                "class_id": 2,
+                "class_name": "phone",
+                "confidence": 0.7776,
+                "bbox_xyxy": [
+                    306.74,
+                    0.32,
+                    496.77,
+                    62.6
+                ]
+            }
+        ]
+    },
+    {
+        "filename": "unseen_10_20220307_191121_jpg.rf.1ab158b4fa3a75be3b0a3c5b1111d25b.jpg",
+        "detections_count": 2,
+        "detections": [
+            {
+                "class_id": 2,
+                "class_name": "phone",
+                "confidence": 0.9242,
+                "bbox_xyxy": [
+                    319.49,
+                    258.86,
+                    402.12,
+                    313.36
+                ]
+            },
+            {
+                "class_id": 0,
+                "class_name": "cup",
+                "confidence": 0.9044,
+                "bbox_xyxy": [
+                    310.62,
+                    323.06,
+                    367.68,
+                    392.72
+                ]
+            }
+        ]
+    },
+    {
+        "filename": "unseen_11_20220307_191126_jpg.rf.5ea08ca0b2bc755c61ebb6a70c2288a5.jpg",
+        "detections_count": 2,
+        "detections": [
+            {
+                "class_id": 0,
+                "class_name": "cup",
+                "confidence": 0.9794,
+                "bbox_xyxy": [
+                    236.39,
+                    303.31,
+                    299.04,
+                    387.58
+                ]
+            },
+            {
+                "class_id": 2,
+                "class_name": "phone",
+                "confidence": 0.8868,
+                "bbox_xyxy": [
+                    357.88,
+                    302.87,
+                    419.06,
+                    392.44
+                ]
+            }
+        ]
+    },
+    {
+        "filename": "unseen_12_20220307_191127_jpg.rf.29f7a069599fb98f3487b5abefad36fa.jpg",
+        "detections_count": 2,
+        "detections": [
+            {
+                "class_id": 0,
+                "class_name": "cup",
+                "confidence": 0.97,
+                "bbox_xyxy": [
+                    202.32,
+                    264.08,
+                    285.92,
+                    367.54
+                ]
+            },
+            {
+                "class_id": 2,
+                "class_name": "phone",
+                "confidence": 0.9581,
+                "bbox_xyxy": [
+                    357.17,
+                    279.58,
+                    423.95,
+                    375.86
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,56 @@
+{
+    "train": {
+        "total_images": 680,
+        "total_bboxes": 1357,
+        "class_counts": {
+            "hand": 3,
+            "cup": 680,
+            "phone": 674
+        },
+        "unannotated_images": 0,
+        "empty_label_files": 0,
+        "invalid_bboxes": 0,
+        "duplicate_images_count": 0,
+        "duplicates_list": []
+    },
+    "val": {
+        "total_images": 67,
+        "total_bboxes": 134,
+        "class_counts": {
+            "cup": 67,
+            "phone": 67
+        },
+        "unannotated_images": 0,
+        "empty_label_files": 0,
+        "invalid_bboxes": 0,
+        "duplicate_images_count": 0,
+        "duplicates_list": []
+    },
+    "test": {
+        "total_images": 35,
+        "total_bboxes": 70,
+        "class_counts": {
+            "cup": 35,
+            "phone": 35
+        },
+        "unannotated_images": 0,
+        "empty_label_files": 0,
+        "invalid_bboxes": 0,
+        "duplicate_images_count": 0,
+        "duplicates_list": []
+    },
+    "summary": {
+        "total_dataset_images": 782,
+        "total_dataset_bboxes": 1561,
+        "class_names": {
+            "0": "cup",
+            "1": "hand",
+            "2": "phone"
+        },
+        "split_ratio": {
+            "train_pct": 86.96,
+            "val_pct": 8.57,
+            "test_pct": 4.48
+        }
+    }
+}

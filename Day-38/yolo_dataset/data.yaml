@@ -1,0 +1,7 @@
+path: E:/custom tarined model/Day-38/yolo_dataset
+train: train/images
+val: val/images
+test: test/images
+
+nc: 3
+names: ['cup', 'hand', 'phone']
