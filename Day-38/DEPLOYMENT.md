@@ -125,9 +125,10 @@ Streamlit configuration:
 
 | Issue | Cause | Fix |
 |-------|-------|-----|
+| "Installer returned non-zero exit code" | PyTorch version conflicts | ✅ **FIXED**: Removed rigid version pins from requirements.txt. Let ultralytics auto-resolve PyTorch. |
 | "Model not found" | `weights/best.pt` not committed | `git add weights/best.pt` → commit & push |
 | Slow startup (>2 min) | First-time model download | Normal behavior; subsequent runs are faster |
-| "No such file or directory" | Path issues in `app.py` | Verify paths use `os.path.join()` for cross-platform compatibility |
+| "No such file or directory" | Path issues in `app.py` | ✅ **FIXED**: Added error handling in app.py for missing files |
 | Out of memory | Streamlit Cloud has 1GB RAM | Reduce batch sizes or image resolution if needed |
 
 ---

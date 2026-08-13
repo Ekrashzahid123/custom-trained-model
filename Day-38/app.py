@@ -102,14 +102,23 @@ st.markdown("""
 
 @st.cache_resource
 def load_yolo_model(model_path):
-    if os.path.exists(model_path):
-        return YOLO(model_path)
-    return None
+    try:
+        if os.path.exists(model_path):
+            return YOLO(model_path)
+        else:
+            st.error(f"Model not found at: {model_path}")
+            return None
+    except Exception as e:
+        st.error(f"Error loading model: {str(e)}")
+        return None
 
 def load_json_data(file_path):
-    if os.path.exists(file_path):
-        with open(file_path, 'r') as f:
-            return json.load(f)
+    try:
+        if os.path.exists(file_path):
+            with open(file_path, 'r') as f:
+                return json.load(f)
+    except Exception as e:
+        st.warning(f"Could not load {file_path}: {str(e)}")
     return {}
 
 st.sidebar.title("🤖 Vision Studio")
