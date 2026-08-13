@@ -17,7 +17,7 @@ Welcome to **Day 38** of the Computer Vision & AI Engineering curriculum. This p
 | **Total Final Dataset Size** | **782** images (680 Train + 67 Val + 35 Test) |
 | **YOLO Architecture** | `yolov8n.pt` (YOLOv8 Nano) |
 | **Training Configuration** | Epochs: 8 \| Image Size: 320x320 \| Batch Size: 16 |
-| **Precision** | **0.9862** (98.62%) |
+| **Precision** | **0.9862** ( 98.62%) |
 | **Recall** | **0.9972** (99.72%) |
 | **mAP@50** | **0.9950** (99.50%) |
 | **mAP@50-95** | **0.8651** (86.51%) |
