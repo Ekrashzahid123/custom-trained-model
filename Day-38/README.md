@@ -187,6 +187,68 @@ Output prediction visual overlays with confidence scores are saved in `Day-38/pr
 
 ---
 
+## 🚀 7. Streamlit Web Application & Deployment
+
+### Running the Streamlit App Locally
+
+The project includes an interactive **Streamlit web application** (`app.py`) for real-time object detection visualization and model evaluation.
+
+#### Quick Start:
+```bash
+cd Day-38
+streamlit run app.py
+```
+
+The app will be available at `http://localhost:8501`
+
+### Features of the Web App:
+- **⚡ Live Object Detection Studio**: Upload custom images or select from unseen test samples
+- **🖼️ Prediction Gallery**: Browse visual predictions across all unseen test images
+- **📈 Performance Metrics**: View precision, recall, mAP50, and mAP50-95 scores
+- **📊 Dataset Audit**: Statistical breakdown of dataset splits and class distribution
+
+### Deploying to Streamlit Cloud (Free)
+
+#### Prerequisites:
+- GitHub account with the repository pushed
+- Streamlit Community Cloud account (https://streamlit.io/cloud)
+
+#### Deployment Steps:
+1. Ensure all files are pushed to GitHub:
+   ```bash
+   git add .
+   git commit -m "Prepare for Streamlit Cloud deployment"
+   git push origin main
+   ```
+
+2. Go to **https://share.streamlit.io**
+
+3. Click **"New app"** and configure:
+   - **Repository**: `Ekrashzahid123/custom-tarined-model`
+   - **Branch**: `main`
+   - **Main file path**: `Day-38/app.py`
+
+4. Click **"Deploy"** and wait for initialization (typically 2-3 minutes)
+
+#### Deployed App URL:
+Your app will be live at: `https://share.streamlit.io/Ekrashzahid123/custom-tarined-model/main/Day-38/app.py`
+
+### Key Files for Deployment:
+- `requirements.txt` — Python dependencies (automatically installed by Streamlit Cloud)
+- `.streamlit/config.toml` — Streamlit configuration (theme, UI settings)
+- `app.py` — Main Streamlit application
+- `weights/best.pt` — Pre-trained YOLOv8 model (ensure it's committed to Git)
+
+### Troubleshooting Deployment:
+| Issue | Solution |
+|-------|----------|
+| Model weights not found | Ensure `weights/best.pt` is committed and pushed to GitHub |
+| Image paths error | App uses relative paths; verify directory structure matches repository |
+| Dependencies missing | All packages in `requirements.txt` are automatically installed by Streamlit Cloud |
+| Slow startup | YOLOv8 model loading takes ~30-45 seconds on first run due to model initialization |
+
+---
+
 ## 🛠️ 9. Dataset Problems & Future Improvement Roadmap
 
 ### Identified Dataset Flaws:
