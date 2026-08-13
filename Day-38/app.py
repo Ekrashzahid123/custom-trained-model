@@ -1,7 +1,6 @@
 import os
 import glob
 import json
-import cv2
 import numpy as np
 import pandas as pd
 import streamlit as st
@@ -197,7 +196,9 @@ with tab_live:
                 )
                 
                 res = results[0]
-                annotated_rgb = cv2.cvtColor(res.plot(), cv2.COLOR_BGR2RGB)
+                # Convert BGR to RGB using numpy (cv2.cvtColor alternative)
+                annotated_bgr = res.plot()
+                annotated_rgb = annotated_bgr[..., ::-1]  # Reverse channels: BGR -> RGB
                 st.image(annotated_rgb, caption=f"YOLOv8 Predictions (Conf >= {conf_thresh})", width="stretch")
                 
             boxes = res.boxes
